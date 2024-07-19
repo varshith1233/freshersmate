@@ -1,0 +1,48 @@
+.image-container{
+    max-width: 1000px;
+    max-height: 1000px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 10px 20px 30px 10px rgb(50 50 50 / 16%);
+
+}
+/* .scrollbar {
+    width: 1px;
+    height: 720px;
+    background: #ccc;
+    display: block;
+    margin: 0 0 0 8px;
+  } */
+  
+  .thumb {
+    width: 1px;
+    position: absolute;
+    height: 0;
+    background: #000;
+  }
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+  }
+  /* .slides {
+    margin: 0 16px;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+    width: calc(540px + 1rem);
+    padding: 0 0.25rem;
+    height: 720px;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+  } */
+  .heading-edit{
+    font-size: 50px;
+    font-weight: bold;
+  }

@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    width: 100%;
+
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.plr-10{
+    padding-left:10px;
+    padding-right:10px;
+
+}
+.ptb-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pl-7{
+    padding-left: 50px;
+}
+.nav-links{
+    cursor: pointer;
+}
+
+.bg-navbar{
+    background-color: #fff;
+    box-shadow: 0px 7px 10px -7px #111;
+
+}
+.nav{
+    text-decoration: none;
+    color:#fd6212;
+    font-size:20px;
+}
+.heading{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+
+}
+.username-nav{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    color: #fd6212;
+    margin-left: 250px;
+    /* border-width: 10px;
+    border-color: black;
+    border-radius: 3px;
+    border-style: double;
+    border-right: 0cm;
+    border-left: 0cm; */
+    font-weight: bold;
+}
+.inside-username{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: normal;
+
+}

@@ -1,0 +1,32 @@
+.card{
+    padding: 30px;
+    margin:20px;
+    min-height: 200px;
+    box-shadow: 10px 20px 30px 10px rgb(50 50 50 / 16%);
+    min-width: 270px;
+    width:320px;
+    height:400px
+
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.title{
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+.desc{
+text-align: center;
+padding-bottom: 30px;
+display: inline-block;
+width: 180px;
+white-space: nowrap;
+overflow: hidden !important;
+text-overflow: ellipsis; display: inline-block;
+width: 180px;
+white-space: nowrap;
+overflow: hidden !important;
+text-overflow: ellipsis;
+}

@@ -1,0 +1,14 @@
+.card-papers{
+    padding: 30px;
+    margin:20px;
+    min-height: 200px;
+    box-shadow: 10px 20px 30px 10px rgb(50 50 50 / 16%);
+    min-width: 200px;
+    width:400px;
+    height:200px;
+    
+}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
